@@ -53,7 +53,8 @@
             <!-- /menu profile quick info -->
 
             <br />
-    <!-- sidebar menu -->
+
+           <!-- sidebar menu -->
             <div id="sidebar-menu" class="main_menu_side hidden-print main_menu">
               <div class="menu_section">
                 <h3>Aluno</h3>
@@ -86,13 +87,11 @@
                  
                   <li><a><i class="fa fa-paper-plane"></i>Solicitações <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
-                     <li><a href="solicitacao_cancelar_ciclo.html">Prorrogar Ciclo</a></li>
-                     <li><a href="solicitacao_adiar_ciclo.html">Alterar ciclo</a></li>
-                     <li><a href="solicitacao_auterar_ciclo.html">Suspender Ciclo</a></li>
-                      <li><a href="solicitacao_generica.html">Recomeçar ciclo</a></li>
-                     
-                       <li><a href="solicitacao_generica.html">Cancelar Curso</a></li>
-                       <li><a href="solicitacao_generica.html">Outros</a></li> 
+                     <li><a href="solicitacao_cancelar_ciclo.html">Cancelar ciclo</a></li>
+                     <li><a href="solicitacao_adiar_ciclo.html">Adiar ciclo</a></li>
+                     <li><a href="solicitacao_auterar_ciclo.html">auterar ciclo</a></li>
+                      <li><a href="solicitacao_generica.html">Cancelar ciclo</a></li>
+                      
                       <li><a href="solicitacao_listar.html">Listar solicitações</a></li>
                       
                     </ul>
@@ -139,7 +138,9 @@
                   </a>
                   <ul class="dropdown-menu dropdown-usermenu pull-right">
                     <li><a href="perfil.html"> Perfil</a></li>
-                  
+                    <li>
+                    <li><a href="editar_dados.html"> editar dados</a></li>
+                    <li>
                     <li><a href="compras.html"> Minhas compras</a></li>
                     <li>
                     <li><a href="atividades.html"> Minhas atividades</a></li>
@@ -189,71 +190,37 @@
 
           <div class="row">
             
-<!--Onde inicia o painel-->
 
-<div class="panel panel-primary">
-    <div class="panel-heading">Letras de lei</div>
+         <div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Tipo de solicitação  X</h3>
+          </div>
           <div class="panel-body">
-              <div class="row">
-                  <div class="col-md-4">
-                      <div class="jumbotron">
-                        <h1>Carreira Policial</h1>
-                        <p> Blá blá blá..</p>
-                        <p><a class="btn btn-primary btn-lg" href="cursos.html" role="button">Entrar</a></p>
-                      </div>
-                  </div>
-                  <div class="col-md-4">
-                      <div class="jumbotron">
-                        <h1>Carreira juridica</h1>
-                        <p> Blá blá blá..</p>
-                        <p><a class="btn btn-primary btn-lg" href="cursos.html" role="button">Entrar</a></p>
-                      </div>
-                  </div>
-                  <div class="col-md-4">
-                      <div class="jumbotron">
-                        <h1>Carreira Escrivão</h1>
-                        <p> Blá blá blá..</p>
-                        <p><a class="btn btn-primary btn-lg" href="cursos.html" role="button">Entrar</a></p>
-                      </div>
-                  </div>
-                  
+            <form>
+              <div class="form-group">
+                <label for="exampleInputEmail1">Justificativa do pedido</label>
+               
+                <textarea class="form-control" rows="3"></textarea>
+
               </div>
-
-           
-
-  
-  </div>
-  
-</div>
-<!--onde finaliza o painel-->
-
-
-          <br />
-
-          <div class="row">
-
-
-           
-
-
-            <div class="col-md-8 col-sm-8 col-xs-12">
-
-
-
-              <div class="row">
-
-                
-                <!-- end of weather widget -->
-              </div>
-            </div>
+             
+              <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
           </div>
         </div>
+
+                <!-- end of weather widget -->
+                </div>
+            </div>
+        </div>
+        </div>
+        
         <!-- /page content -->
 
         <!-- footer content -->
         <footer>
           <div class="pull-right">
-            Gentelella - Bootstrap Admin Template by <a href="https://colorlib.com">Colorlib</a>
+            Portal CJ5 Coaching jurídico - Plataforma desenvolvida por <a href="https://colorlib.com">Voa Studio</a>
           </div>
           <div class="clearfix"></div>
         </footer>
